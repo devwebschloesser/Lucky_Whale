@@ -2,8 +2,7 @@
 
 Este é o frontend do projeto **Lucky Whale Raffles**, uma aplicação para criar e gerenciar campanhas sem fins lucrativos, oferecendo brindes aos doadores.
 
-Você pode ver o fluxo de telas mas algumas funções estão limitadas e o funcionamento por enquanto é local:<br>
-https://lucky-whale-raffles.vercel.app
+
 
 ---
 
@@ -12,11 +11,6 @@ https://lucky-whale-raffles.vercel.app
 ## 📥 Instalação
 
 Siga os passos abaixo para executar o projeto localmente:
-
-### 1. Clone o repositório:
-
-```bash
-git clone https://github.com/SrBaliardo/lucky-whale-raffles.git
 ```
 
 ### 2. Acesse a pasta do frontend
