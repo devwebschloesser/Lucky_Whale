@@ -1,86 +1,99 @@
-# 🐳 Lucky Whale Raffles - Frontend
+# 🐳 Lucky Whale
 
-Este é o frontend do projeto **Lucky Whale Raffles**, uma aplicação para criar e gerenciar campanhas sem fins lucrativos, oferecendo brindes aos doadores.
+Projeto Full-Stack para criação e gerenciamento de campanhas sem fins lucrativos, com backend em API REST e frontend para interação dos usuários.
 
+🔗 Deploy ao vivo: https://luckywhale-blue.vercel.app/
+ 
+GitHub
 
+📌 Sobre o Projeto
 
----
+Lucky Whale é uma aplicação web que permite criar, visualizar e gerenciar campanhas beneficentes, com funcionalidades para usuários interagirem com sorteios ou doações. O frontend foi criado com foco em usabilidade, responsividade e performance, e o backend expõe uma API REST para dar suporte às operações do sistema. 
+GitHub
 
-<br>
+🧰 Tecnologias Utilizadas
 
-## 📥 Instalação
+Este projeto utiliza as seguintes tecnologias:
 
-Siga os passos abaixo para executar o projeto localmente:
-```
+Tecnologia	Uso
+React	Biblioteca para construção da interface de usuário
+Vite	Ferramenta de build rápida para desenvolvimento frontend
+JavaScript	Linguagem principal do projeto
+React Router	Gerenciamento de rotas no frontend
+HTML / CSS	Estrutura e estilo das páginas
+API REST	Backend para operações (CRUD de campanhas, etc)
+Vercel	Hospedagem e deploy contínuo da aplicação
 
-### 2. Acesse a pasta do frontend
+Observação: o backend está separado (API REST), utilizando outro repositório ou serviço conectado a esse frontend. 
+GitHub
 
-```bash
-cd lucky-whale-raffles/lucky-whale_frontend
-```
+🚀 Começando (Desenvolvimento)
 
-### 3. Instale as dependências
+Siga os passos abaixo para rodar o projeto localmente:
 
-```bash
+1️⃣ Clone o repositório
+git clone https://github.com/devwebschloesser/Lucky_Whale.git
+
+2️⃣ Vá para o diretório do frontend
+cd Lucky_Whale
+
+3️⃣ Instale as dependências
+
+Use npm ou yarn:
+
 npm install
-```
+# ou
+yarn
 
-### 4. Inicie o servidor de desenvolvimento
-
-```bash
+4️⃣ Inicie o servidor de desenvolvimento
 npm run dev
-```
+# ou
+yarn dev
 
-<br>
+5️⃣ Acesse no navegador
 
-## 📚 Dependências
+Abra o navegador e vá para:
 
-- React + Vite
-- JavaScript
-- react-router-dom
+http://localhost:5173
 
-<br>
 
-<br>
+Você verá a aplicação rodando localmente.
 
-## 🖼️ Fluxo por imagens:<br>
+🛠 Scripts Disponíveis
+Script	Descrição
+dev	Inicia o servidor de desenvolvimento
+build	Gera os arquivos otimizados para produção
+preview	Pré-visualiza a build de produção localmente
 
-<div>
-  <img align="center" alt="HTML" height="auto" width="150" src="src/assets/readme_images/lucky_whale-00.png">
-  <img align="center" alt="HTML" height="auto" width="150" src="src/assets/readme_images/lucky_whale-01.png">
-  <img align="center" alt="HTML" height="auto" width="150" src="src/assets/readme_images/lucky_whale-02.png">
-  <img align="center" alt="HTML" height="auto" width="150" src="src/assets/readme_images/lucky_whale-03.png">
-  <img align="center" alt="HTML" height="auto" width="150" src="src/assets/readme_images/lucky_whale-04.png">
-  <img align="center" alt="HTML" height="auto" width="150" src="src/assets/readme_images/lucky_whale-05.png">
-  <img align="center" alt="HTML" height="auto" width="150" src="src/assets/readme_images/lucky_whale-06.png">
-  <img align="center" alt="HTML" height="auto" width="150" src="src/assets/readme_images/lucky_whale-07.png">
-  <img align="center" alt="HTML" height="auto" width="150" src="src/assets/readme_images/lucky_whale-08.png">
-  <img align="center" alt="HTML" height="auto" width="150" src="src/assets/readme_images/lucky_whale-09.png">
-  <img align="center" alt="HTML" height="auto" width="150" src="src/assets/readme_images/lucky_whale-10.png">
-  <img align="center" alt="HTML" height="auto" width="150" src="src/assets/readme_images/lucky_whale-11.png">
-  <img align="center" alt="HTML" height="auto" width="150" src="src/assets/readme_images/lucky_whale-12.png">
-  <img align="center" alt="HTML" height="auto" width="150" src="src/assets/readme_images/lucky_whale-13.png">
-  <img align="center" alt="HTML" height="auto" width="150" src="src/assets/readme_images/lucky_whale-14.png">
-  <img align="center" alt="HTML" height="auto" width="150" src="src/assets/readme_images/lucky_whale-15.png">
-  <img align="center" alt="HTML" height="auto" width="150" src="src/assets/readme_images/lucky_whale-16.png">
-  <img align="center" alt="HTML" height="auto" width="150" src="src/assets/readme_images/lucky_whale-17.png">
-  <img align="center" alt="HTML" height="auto" width="150" src="src/assets/readme_images/lucky_whale-18.png">
-  <img align="center" alt="HTML" height="auto" width="150" src="src/assets/readme_images/lucky_whale-19.png">
-  <img align="center" alt="HTML" height="auto" width="150" src="src/assets/readme_images/lucky_whale-20.png">
-  <img align="center" alt="HTML" height="auto" width="150" src="src/assets/readme_images/lucky_whale-21.png">
-  <img align="center" alt="HTML" height="auto" width="150" src="src/assets/readme_images/lucky_whale-22.png">
-  <img align="center" alt="HTML" height="auto" width="150" src="src/assets/readme_images/lucky_whale-23.png">
-  <img align="center" alt="HTML" height="auto" width="150" src="src/assets/readme_images/lucky_whale-24.png">
-  <img align="center" alt="HTML" height="auto" width="150" src="src/assets/readme_images/lucky_whale-25.png">
-  <img align="center" alt="HTML" height="auto" width="150" src="src/assets/readme_images/lucky_whale-26.png">
-  <img align="center" alt="HTML" height="auto" width="150" src="src/assets/readme_images/lucky_whale-27.png">
-  <img align="center" alt="HTML" height="auto" width="150" src="src/assets/readme_images/lucky_whale-28.png">
-  <img align="center" alt="HTML" height="auto" width="150" src="src/assets/readme_images/lucky_whale-29.png">
-  <img align="center" alt="HTML" height="auto" width="150" src="src/assets/readme_images/lucky_whale-30.png">
-  <img align="center" alt="HTML" height="auto" width="150" src="src/assets/readme_images/lucky_whale-31.png">
-</div>
+🔌 Configuração de Variáveis de Ambiente
 
-<br>
+Caso o frontend use variáveis de ambiente (por exemplo, URL da API), crie um arquivo .env na raiz com algo parecido com:
 
-🤝 Autor
-Desenvolvido por <a href="https://github.com/devwebschloesser">Leonardo Schloesser</a>
+VITE_API_URL=https://sua-api.com
+
+
+Ajuste conforme o backend que estiver usando.
+
+🤝 Como Contribuir
+
+Contribuições são bem-vindas! ❤️
+Siga estes passos:
+
+Faça um fork do projeto
+
+Crie uma branch: feature/nome-da-feature
+
+Faça commits significativos
+
+Abra um Pull Request
+
+📄 Licença
+
+Esse projeto está sob a licença MIT — veja o arquivo LICENSE para mais detalhes.
+
+📬 Contato
+
+👤 Leonardo Schloesser Pinheiro (Léo)
+📧 leonardo.schlo@hgmail.com
+
+🌐 GitHub: https://github.com/devwebschloesser
