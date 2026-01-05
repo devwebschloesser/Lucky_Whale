@@ -2,6 +2,12 @@
 
 Projeto Full-Stack para criação e gerenciamento de campanhas sem fins lucrativos, com backend em API REST e frontend para interação dos usuários.
 
+![React](https://img.shields.io/badge/React-18-blue)
+![Vite](https://img.shields.io/badge/Vite-5-purple)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow)
+![Status](https://img.shields.io/badge/Status-Concluído-green)
+![License](https://img.shields.io/badge/License-MIT-green)
+```
 🔗 Deploy ao vivo: https://luckywhale-blue.vercel.app/
  
 GitHub
